@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Basic behaviors</title>
+        <!--link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/lumen/bootstrap.min.css"-->
+        <!--link rel="stylesheet"  rel="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css"-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+        <!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js"></script-->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.css">
+
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <div ng-app="choreApp">
+            <div>
+                <kid></kid>
+                <kid></kid>
+                <kid></kid>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <kid2></kid2>
+                <kid2></kid2>
+                <kid2></kid2>
+                <kid2></kid2>
+                <kid2></kid2>
+            </div>
+            <div>&nbsp;</div>
+            <div ng-controller="ChoreCtrl">
+                <kid3 done="logChore(chore)"></kid3>
+            </div>
+        </div>
+    </body>
+</html>
